@@ -44,7 +44,7 @@ $auther->login_chk();
                 </div>
             </div>
             
-            <button type= "submit" class="btn btn-primary">更新</button>
+            <button type= "submit" class="btn btn-primary">削除</button>
            
         </form>
         <a href= "./detail.php?user_id=<?php echo $user_id; ?>"class="btn btn-primary">Back</a>

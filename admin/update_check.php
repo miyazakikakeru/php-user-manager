@@ -76,7 +76,7 @@ if (!preg_match('|^[0-9a-z_./?-]+@([0-9a-z-]+\.)+[0-9a-z-]+$|', $mail_adress)) {
                 </div>
             </div>
            
-            <button type= "submit" class="btn btn-primary">Sign in</button>
+            <button type= "submit" class="btn btn-primary">更新</button>
            
         </form>
     <?php } else { ?>        
@@ -111,7 +111,7 @@ if (!preg_match('|^[0-9a-z_./?-]+@([0-9a-z-]+\.)+[0-9a-z-]+$|', $mail_adress)) {
             <input type="hiddne" class="form-control" readonly  id="name" name="mail_adress" value ="<?php echo $mail_adress;?>">
             <input type="hiddne" class="form-control" readonly id="pass"name="pass_word" value ="<?php echo $pass_word;?>"> 
             
-            <button type= "submit" class="btn btn-primary">Back</button>
+            <button type= "submit" class="btn btn-primary">戻る</button>
         </form>
     
     <?php } ?>

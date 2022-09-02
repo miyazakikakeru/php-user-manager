@@ -48,7 +48,7 @@ $pass_word = isset($_POST['pass_word']) ?$_POST['pass_word'] : '';
                 <input type="password" class="form-control" id="pass"name="pass_word" value ="<?php echo $pass_word;?>">
                 </div>
             </div>
-            <button type= "submit" class="btn btn-primary">Sign in</button>
+            <button type= "submit" class="btn btn-primary">更新</button>
         </form>
     <!-- Optional JavaScript; choose one of the two! -->
 

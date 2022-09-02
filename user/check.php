@@ -69,7 +69,7 @@ if($pass_word === "") {
                 <input type="password" class="form-control <?php if( !empty($errors['pass_word']) ) echo "border-danger text-danger"; ?>" id="pass"name="pass_word" value ="<?php echo $pass_word;?>">
                 </div>
             </div>
-            <button type= "submit" class="btn btn-primary">Sign in</button>
+            <button type= "submit" class="btn btn-primary">登録</button>
            
         </form>
 
@@ -93,14 +93,14 @@ if($pass_word === "") {
                 <input type="password" readonly class="form-control <?php if( !empty($errors['pass_word']) ) echo "border-danger text-danger"; ?>" id="pass"name="pass_word" value ="<?php echo $pass_word;?>">
                 </div>
             </div>
-            <button type= "submit" class="btn btn-primary">Sign in</button>
+            <button type= "submit" class="btn btn-primary">登録</button>
            
         </form>
-        <form method="POST" action="./comp.php">
+        <form method="POST" action="./input.php">
             <input type="hiddne" class="form-control" readonly  id="name" name="user_name" value ="<?php echo $user_name;?>">
             <input type="hiddne" class="form-control" readonly id="mail" name="mail_adress" value ="<?php echo $mail_adress;?>">
             <input type="hiddne" class="form-control" readonly id="pass"name="pass_word" value ="<?php echo $pass_word;?>">  
-            <button type= "submit" class="btn btn-primary">Back</button>
+            <button type= "submit" class="btn btn-primary">戻る </button>
         </form>
     
     <?php } ?>

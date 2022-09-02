@@ -86,7 +86,7 @@ try{
             <input type="password" class="form-control" id="pass"name="pass_word" value ="<?php echo $pass_word;?>">
         </div>
      </div>
-     <button type= "submit" class="btn btn-primary">Sign in</button>
+     <button type= "submit" class="btn btn-primary">登録</button>
     </form>
     <?php } ?>
     
